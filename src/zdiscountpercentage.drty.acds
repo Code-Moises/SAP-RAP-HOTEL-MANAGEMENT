@@ -1,0 +1,2 @@
+@EndUserText.label: 'discount percentage type'
+define type ZDISCOUNTPERCENTAGE: abap.int1

@@ -142,7 +142,7 @@ authorization dependent by _Hotel
 
   action ( features : instance ) acceptReservation result [1] $self;
   action ( features : instance ) rejectReservation result [1] $self;
-  action deductDiscount parameter /dmo/a_travel_discount result [1] $self;
+  action deductDiscount parameter ZRESERV_DISCOUNT result [1] $self;
 
   side effects {
     field roomId affects field TotalPrice;
